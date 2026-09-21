@@ -1,0 +1,64 @@
+{
+  "model": "v3_two_stage_moe",
+  "k_expert": 3,
+  "selection": "val NLL (soft routing)",
+  "seed": 42,
+  "protocol": "同 v2：MAE/minADE 真实坐标；NLL 标准化空间",
+  "val": {
+    "gate_top1": 0.536,
+    "gate_top3": 0.951,
+    "full": {
+      "mae_x": 67.128,
+      "mae_y": 83.336,
+      "mae_mean": 75.232,
+      "nll": 1.388,
+      "minade5": 39.972,
+      "cov90": 0.881,
+      "win_dx": 39.15,
+      "win_dy": 40.79
+    },
+    "oracle": {
+      "mae_x": 63.582,
+      "mae_y": 30.42,
+      "mae_mean": 47.001,
+      "nll": 0.845,
+      "minade5": 27.813,
+      "cov90": 0.858,
+      "win_dx": 28.94,
+      "win_dy": 26.69
+    }
+  },
+  "test": {
+    "gate_top1": 0.544,
+    "gate_top3": 0.955,
+    "full": {
+      "mae_x": 73.103,
+      "mae_y": 81.106,
+      "mae_mean": 77.104,
+      "nll": 1.316,
+      "minade5": 40.076,
+      "cov90": 0.897,
+      "win_dx": 38.28,
+      "win_dy": 41.88
+    },
+    "oracle": {
+      "mae_x": 70.627,
+      "mae_y": 30.039,
+      "mae_mean": 50.333,
+      "nll": 0.783,
+      "minade5": 27.689,
+      "cov90": 0.873,
+      "win_dx": 29.55,
+      "win_dy": 25.83
+    }
+  },
+  "targets": {
+    "v1_mae": 76.78,
+    "v2": {
+      "mae": 77.92,
+      "minade5": 39.56,
+      "nll": 1.377,
+      "cov90": 0.863
+    }
+  }
+}

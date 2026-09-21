@@ -1,0 +1,32 @@
+{
+  "model": "MC_Dropout",
+  "s_forward": 20,
+  "sigma_norm": {
+    "x": 0.9314401745796204,
+    "y": 0.5300775766372681
+  },
+  "protocol": "MC Dropout on v1 PointBaseline; sigma from v1 val residual; mixture of S_FORWARD Gaussians",
+  "test": {
+    "mae_x": 72.246,
+    "mae_y": 81.273,
+    "mae_mean": 76.76,
+    "nll": 2.168,
+    "minade5": 70.583,
+    "cov90": 0.924
+  },
+  "targets": {
+    "v1": 76.78,
+    "deep_ensemble": {
+      "mae": 76.47,
+      "minade5": 64.62,
+      "nll": 2.148,
+      "cov90": 0.943
+    },
+    "v4": {
+      "mae": 76.91,
+      "minade5": 38.64,
+      "nll": 1.211,
+      "cov90": 0.895
+    }
+  }
+}

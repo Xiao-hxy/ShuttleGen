@@ -1,0 +1,24 @@
+{
+  "model": "v2_mdn",
+  "k": 5,
+  "selection": "val NLL",
+  "seed": 42,
+  "protocol": "MAE/minADE 真实坐标单位；NLL 标准化空间；Coverage@90% 理想值 0.90",
+  "val": {
+    "mae_x": 67.331,
+    "mae_y": 83.396,
+    "mae_mean": 75.364,
+    "nll": 1.38,
+    "minade5": 326.167,
+    "coverage90": 0.861
+  },
+  "test": {
+    "mae_x": 72.962,
+    "mae_y": 82.888,
+    "mae_mean": 77.925,
+    "nll": 1.377,
+    "minade5": 39.557,
+    "coverage90": 0.863
+  },
+  "v1_test_mae_mean": 76.78
+}

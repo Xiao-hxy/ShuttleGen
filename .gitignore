@@ -1,0 +1,38 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+badminton_cv/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+
+# ===== 数据（不在仓库里放，数据是壁垒） =====
+processed/*.npz
+datasets/
+
+# ===== 训练产物（权重/预测/图片都不放，别人有代码自己能训） =====
+results/*.pt
+results/*.npz
+results/*.png
+
+# ===== 内部文档 =====
+paper_draft.md
+v4实验总结与后续对比计划.md
+*汇报*
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+processed/stats.png

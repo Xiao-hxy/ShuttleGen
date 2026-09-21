@@ -1,0 +1,80 @@
+{
+  "model": "v4_tgmm",
+  "k_expert": 3,
+  "boundaries_norm": {
+    "x": [
+      -3.5,
+      3.6
+    ],
+    "y": [
+      -2.0,
+      2.0
+    ]
+  },
+  "selection": "val NLL (truncated soft routing)",
+  "seed": 42,
+  "protocol": "同 v2/v3，NLL 含截断修正项",
+  "val": {
+    "gate_top1": 0.53,
+    "gate_top3": 0.95,
+    "full": {
+      "mae_x": 66.883,
+      "mae_y": 83.116,
+      "mae_mean": 74.999,
+      "nll": 1.297,
+      "minade5": 40.227,
+      "cov90": 0.864,
+      "win_dx": 37.26,
+      "win_dy": 43.2
+    },
+    "oracle": {
+      "mae_x": 63.822,
+      "mae_y": 30.022,
+      "mae_mean": 46.922,
+      "nll": 0.747,
+      "minade5": 27.069,
+      "cov90": 0.853,
+      "win_dx": 27.54,
+      "win_dy": 26.6
+    }
+  },
+  "test": {
+    "gate_top1": 0.546,
+    "gate_top3": 0.956,
+    "full": {
+      "mae_x": 73.188,
+      "mae_y": 80.636,
+      "mae_mean": 76.912,
+      "nll": 1.211,
+      "minade5": 38.636,
+      "cov90": 0.895,
+      "win_dx": 36.33,
+      "win_dy": 40.94
+    },
+    "oracle": {
+      "mae_x": 70.631,
+      "mae_y": 29.569,
+      "mae_mean": 50.1,
+      "nll": 0.657,
+      "minade5": 26.641,
+      "cov90": 0.877,
+      "win_dx": 27.16,
+      "win_dy": 26.13
+    }
+  },
+  "targets": {
+    "v1_mae": 76.78,
+    "v2": {
+      "mae": 77.92,
+      "minade5": 39.56,
+      "nll": 1.377,
+      "cov90": 0.863
+    },
+    "v3": {
+      "mae": 77.1,
+      "minade5": 40.08,
+      "nll": 1.316,
+      "cov90": 0.897
+    }
+  }
+}

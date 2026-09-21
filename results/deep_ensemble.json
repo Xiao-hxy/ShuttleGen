@@ -1,0 +1,31 @@
+{
+  "model": "Deep_Ensembles",
+  "n_members": 5,
+  "seeds": [
+    1,
+    42,
+    123,
+    2024,
+    9999
+  ],
+  "member_val_mae": [
+    75.164,
+    74.579,
+    74.458,
+    74.674,
+    74.46
+  ],
+  "sigma_norm": {
+    "x": 0.9341622591018677,
+    "y": 0.5242775678634644
+  },
+  "protocol": "MAE: ensemble mean; distribution: uniform-weighted 5-component Gaussian mixture",
+  "test": {
+    "mae_x": 71.312,
+    "mae_y": 81.633,
+    "mae_mean": 76.472,
+    "nll": 2.148,
+    "minade5": 64.616,
+    "cov90": 0.943
+  }
+}

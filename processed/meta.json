@@ -1,0 +1,95 @@
+{
+  "type_names": [
+    "short service",
+    "long service",
+    "clear",
+    "lob",
+    "drop",
+    "smash",
+    "drive",
+    "push/rush",
+    "net shot",
+    "defensive shot"
+  ],
+  "player_names": [
+    "Aakarshi KASHYAP",
+    "Akane YAMAGUCHI",
+    "An Se Young",
+    "Anders ANTONSEN",
+    "Anthony Sinisuka GINTING",
+    "Busanan ONGBAMRUNGPHAN",
+    "CHEN Yufei",
+    "Carolina MARIN",
+    "Chico Aura DWI WARDOYO",
+    "Gregoria Mariska TUNJUNG",
+    "HE Bingjiao",
+    "Jonatan CHRISTIE",
+    "KIDAMBI Srikanth",
+    "Kenta NISHIMOTO",
+    "Kento MOMOTA",
+    "Kodai NARAOKA",
+    "Kunlavut VITIDSARN",
+    "LEE Cheuk Yiu",
+    "LEE Zii Jia",
+    "LI Shi Feng",
+    "LIEW Daren",
+    "LOH Kean Yew",
+    "LU Guang Zu",
+    "Lakshya SEN",
+    "NG Ka Long Angus",
+    "PRANNOY H. S.",
+    "PUSARLA V. Sindhu",
+    "Pornpawee CHOCHUWONG",
+    "Rasmus GEMKE",
+    "Ratchanok INTANON",
+    "SHI Yuqi",
+    "Supanida KATETHONG",
+    "Viktor AXELSEN",
+    "WANG Zhi Yi",
+    "ZHAO Jun Peng"
+  ],
+  "norm": {
+    "mean_x": 175.0,
+    "std_x": 82.0,
+    "mean_y": 467.0,
+    "std_y": 192.0
+  },
+  "val_match_id": [
+    38,
+    46,
+    47,
+    48,
+    49
+  ],
+  "test_match_id": [
+    39,
+    40,
+    50,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+  ],
+  "splits": {
+    "train": {
+      "matches": 44,
+      "rallies": 2888,
+      "strokes": 32124,
+      "samples": 29236
+    },
+    "val": {
+      "matches": 5,
+      "rallies": 450,
+      "strokes": 4690,
+      "samples": 4240
+    },
+    "test": {
+      "matches": 9,
+      "rallies": 654,
+      "strokes": 6841,
+      "samples": 6187
+    }
+  }
+}
